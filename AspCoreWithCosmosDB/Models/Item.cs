@@ -20,5 +20,11 @@ namespace AspCoreWithCosmosDB.Models
         [JsonProperty(PropertyName = "isComplete")]
         public bool Completed { get; set; }
 
+        [JsonProperty(PropertyName = "imageName")]
+        public string ImageName { get; set; }
+
+        [JsonProperty(PropertyName = "imagePath")]
+        public string ImagePath { get; set; }
+
     }
 }
